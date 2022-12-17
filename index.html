@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design Silva</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link 
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,800;1,900&display=swap" 
+        rel="stylesheet" 
+    />
+    <style>
+        .mySlides {
+            display: none;
+        }
+        img {
+            vertical-align: middle;
+        }
+        /* Slideshow container */
+        .slideshow-container {
+          max-width: 100%;
+          position: relative;
+          margin: auto;
+        }
+        /* Caption text */
+        .text {
+          color: #f2f2f2;
+          font-size: 15px;
+          padding: 8px 12px;
+          position: absolute;
+          bottom: 8px;
+          width: 100%;
+          text-align: center;
+        }
+        /* Number text (1/3 etc) */
+        .numbertext {
+          color: #f2f2f2;
+          font-size: 12px;
+          padding: 8px 12px;
+          position: absolute;
+          top: 0;
+        }
+        /* The dots/bullets/indicators */
+        .dot {
+          height: 15px;
+          width: 15px;
+          margin: 0 2px;
+          background-color: #bbb;
+          border-radius: 50%;
+          display: inline-block;
+          transition: background-color 0.6s ease;
+        }
+        .active {
+          background-color: var(--color-p);
+        }
+        /* Fading animation */
+        .fade {
+          animation-name: fade;
+          animation-duration: 1.5s;
+        }
+        @keyframes fade {
+          from {opacity: .4} 
+          to {opacity: 1}
+        }
+        /* On smaller screens, decrease text size */
+        @media only screen and (max-width: 300px) {
+          .text {font-size: 11px}
+        }
+        </style>
+</head>
+<body>
+    
+    <main>
+        <div class="init">
+            <header class="a1">
+                <ul class="a_ul">
+                    <li class="a_li"><a href="#">Início</a></li>
+                    <li class="a_li"><a href="#c1">Tecnologias</a></li>
+                    <li class="a_li"><a href="#">Diferencial</a></li>
+                    <li class="a_li"><a href="#">Clientes</a></li>
+                    <li class="a_li"><a href="#">Contato</a></li>
+                </ul>
+            </header>
+            <div class="b1_gradient">
+                <div class="b1">    <!--SESSAO_1    APRESENTACAO DO SITE-->
+                    <div class="b2">
+                        <h1 class="h1_fill">design silva</h1>
+                        <p class="b3">Mantemos o foco central de entregar a melhor experiência ao usuário através de um site bem estruturado, design de interface, segurança e acessibilidade que instiga quem o acessa.
+                            <br>
+                            <br>
+                            Trabalhando no hoje, entregando o futuro.
+                        </p>
+                        <buttton class="b1_button_div">
+                            <button class="b1_button"><a href="#">Entre em contato</a></button>
+                        </buttton>
+                        <p class="s">©2022</p>
+                    </div>
+                    <div class="b4">
+                        <img src="./img/b_image.png" alt="Design Silva" class="b_image">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="c1">
+
+            <div class="c2">    <!--SESSAO_2    TEXTO FERRAMENTAS DE TRABALHO-->
+                <div class="c3">
+                    <h2>tecnologias</h2>
+                    <p class="c4">Desenvolvemos nossas tecnologias com as seguintes ferramentas</p>
+                </div>
+            </div>
+
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                    <div class="numbertext">1 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">HTML5</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">2 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">CSS3</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">3 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">JavaScript</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">4 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">React</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">5 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">Angular</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">6 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">Passport</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">7 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">MongoDB</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">8 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">MySQL</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">9 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">Apache</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">10 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">C</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">11 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">C++</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">12 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">CSHARP</div>
+                </div>
+                <div class="mySlides fade">
+                    <div class="numbertext">13 / 13</div>
+                    <img src="./icons/arrow-right-square.svg">
+                    <div class="text">PHP</div>
+                </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span> 
+                <span class="dot"></span> 
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+        </div>
+
+        <div id="d1">
+
+            <div class="d2">
+                <h3>Diferencial</h3>
+            </div>
+
+            <div class="d3">
+                <div class="d_block">
+                    <div class="d_column">
+                        <img src="./icons/certificado-ssl.svg" alt="certificado ssl" class="d_icon">
+                        <span class="d_title">
+                            Certificado SSL
+                        </span>
+                        <p class="d_description">
+                            Site protegido com conexão criptografada.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/banco-de-dados.svg" alt="banco de dados" class="d_icon">
+                        <span class="d_title">
+                            Banco de dados
+                        </span>
+                        <p class="d_description">
+                            Criptografia ponta a ponta, dados ocultos.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/velocidade.svg" alt="velocidade" class="d_icon">
+                        <span class="d_title">
+                            Velocidade
+                        </span>
+                        <p class="d_description">
+                            Site otimizado para carregamento rápido.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/hospedagem.svg" alt="hospedagem" class="d_icon">
+                        <span class="d_title">
+                            Hospedagem
+                        </span>
+                        <p class="d_description">
+                            Sistema hospedado com as melhores empresas do Brasil.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/dominio.svg" alt="dominio" class="d_icon">
+                        <span class="d_title">
+                            Domínio
+                        </span>
+                        <p class="d_description">
+                            Escolha um domínio personalizado para seu negócio.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/gateway.svg" alt="gateway" class="d_icon">
+                        <span class="d_title">
+                            Gateway
+                        </span>
+                        <p class="d_description">
+                            Processa diversos tipos de pagamento online.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/dispositivos.svg" alt="dispositivos" class="d_icon">
+                        <span class="d_title">
+                            Dispositivos
+                        </span>
+                        <p class="d_description">
+                            Site responsivo a todos os dispositivos.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/monitoramento.svg" alt="monitoramento" class="d_icon">
+                        <span class="d_title">
+                            Monitoramento
+                        </span>
+                        <p class="d_description">
+                            Entrega de relatórios e testes, constantes do sistema.
+                        </p>
+                    </div>
+
+                    <div class="d_column">
+                        <img src="./icons/design.svg" alt="design" class="d_icon">
+                        <span class="d_title">
+                            Design
+                        </span>
+                        <p class="d_description">
+                            Um visual impecável que representa sua marca.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="e1">
+
+            <div class="e2">
+                <h4>Clientes</h4>
+            </div>
+
+            <div class="e3">
+                <div class="e_block">
+                    <div class="e_card">
+                        <img src="./img/e_img_MOTORHOME-BRASIL-CONEXOES.png" alt="Motorhome Brasil Conexões" class="e_img">
+                        <span class="e_title">
+                            Motorhome Brasil Conexões
+                        </span>
+                        <p class="e_description">
+                            O Eduardo é muito gentil e inteligente, foi bem fácil de trabalhar
+                            com ele, no nosso desenvolvimento do site, ele colaborou com muitas
+                            ideias que agregaram no projeto.
+                        </p>
+                    </div>
+
+                    <div class="e_card">
+                        <img src="./img/e_img_MOTORHOME-O-SONHO.png" alt="Motorhome O Sonho" class="e_img">
+                        <span class="e_title">
+                            Motorhome O Sonho
+                        </span>
+                        <p class="e_description">
+                            Ficamos imensamente satisfeitos com os serviços prestados pelo 
+                            Eduardo, nossas expectativas foram atendidas e superadas, um 
+                            excelente profissional, e mesmo com tratativas apenas virtuais 
+                            em razão da distância geográfica realiza tudo com êxito.
+                        </p>
+                    </div>
+
+                    <div class="e_card">
+                        <img src="./img/e_img_UNDER-EXPOSED.png" alt="Under Exposed" class="e_img">
+                        <span class="e_title">
+                            Under Exposed
+                        </span>
+                        <p class="e_description">
+                            Muito satisfeito com o serviço prestado pela Design Silva, comprometidos 
+                            com a responsabilidade de desenvolver um bom site, eu o recomendo!
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="demo">
+                    <div class="demo_contact">
+                        <span class="demo_span">Retire seu projeto do papel</span>
+                        <br>
+                        <div class="demo_div">
+                            <button class="demo_click">WhatsApp Atendimento</button>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="demo_infos">
+                        <span class="demo_inc">©2022 Design Silva</span>
+                        <span class="demo_inc">Todos os direitos reservados</span>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </main>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block"; 
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
+</body>
+</html>
